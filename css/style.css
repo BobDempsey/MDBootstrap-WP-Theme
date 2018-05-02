@@ -1,0 +1,33 @@
+/*giving space to main layout*/
+main {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+
+            
+/*sidebar/widgets*/
+
+.cat-item {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.current-cat{
+  z-index: 2;
+  color: #fff;
+  background-color: #0091ea;
+  border-color: #0091ea;
+}
+.current-cat>a{
+  color: #fff;  
+}
+
+.widget-item ul {
+  padding-left: 0;
+  list-style-type: none;
+
+}       
